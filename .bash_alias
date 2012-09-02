@@ -1,0 +1,30 @@
+# .bash_alias
+# created by Glenn Simpkins for CSCI 144 Sept 25, 2011
+# created from given template by rrenner 
+# Modified with other helpfull aliases while taking CSCI 340 and CSCI 344
+# Last modification March 7, 2012
+
+alias a=alias
+
+# clear the screen
+alias cl=clear
+
+# clean out unwanted files (recursively)
+
+# list directory contents in detailed way, by page
+alias ls='ls -a -h --color'
+
+# put safety  into remove file command
+alias rm='rm -i'
+
+# So that I can open multiple terminals with a satisfactory look and feel 
+# when I ssh -X into Jaguar
+#alias xterm='xterm -bg black -fg green -fn "lucidasanstypewriter-12" &'
+alias xterm='xterm -bg black -fg green &'
+
+# put safety  into remove directory command
+alias rmdir='rm -R -i'
+
+# easier to think of command to use my virtual python environment for 
+# CSCI 344
+alias sandbox='source ~/python/sandbox/bin/activate'
